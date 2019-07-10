@@ -5,19 +5,20 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: '规范', link: '/foo/'},
+      { text: '规范', link: '/style/'},
       { text: 'Github', link: 'https://github.com/LeeRayno' },
     ],
     sidebar: {
-      '/foo/': [
-        '',     /* /foo/ */
-        'one',  /* /foo/one.html */
-        'two'   /* /foo/two.html */
+      '/style/': [
+        ['', 'FE docs'],
+        ['html', 'HTML'],
+        ['css', 'CSS'],
+        ['named', '命名']
       ],
       '/': [
-        '',        /* / */
-        ['typeof', 'typeof'], /* /contact.html */
-        ['closure', '闭包']    /* /about.html */
+        '',       
+        ['typeof', 'typeof'],
+        ['closure', '闭包']
       ]
     }
   }
