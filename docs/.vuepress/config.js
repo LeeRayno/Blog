@@ -17,7 +17,7 @@ module.exports = {
       '/': [
         '',        /* / */
         ['typeof', 'typeof'], /* /contact.html */
-        ['about', '关于']    /* /about.html */
+        ['closure', '闭包']    /* /about.html */
       ]
     }
   }
