@@ -5,7 +5,12 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico', type: 'image/x-icon' }],
     ['link', { rel: 'stylesheet', href: 'https://unpkg.com/gitalk/dist/gitalk.css'}],
-    ['script', { src: 'https://unpkg.com/gitalk/dist/gitalk.min.js'}]
+    ['script', { src: 'https://unpkg.com/gitalk/dist/gitalk.min.js'}],
+    ['script', {},`
+      var _hmt = _hmt || []
+    `],
+    ['script', { src: 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js'}],
+    ['script', { src: 'https://hm.baidu.com/hm.js?f1661a9d96dfacbfa0cd47b35701e6d9'}]
   ],
 
   themeConfig: {
