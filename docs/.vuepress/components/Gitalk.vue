@@ -3,8 +3,6 @@
 </template>
 
 <script>
-
-
 export default {
   watch: {
     '$route.path'(nevVal, oldVal) {
