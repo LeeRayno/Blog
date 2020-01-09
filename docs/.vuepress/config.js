@@ -10,7 +10,8 @@ module.exports = {
       var _hmt = _hmt || []
     `],
     ['script', { src: 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js'}],
-    ['script', { src: 'https://hm.baidu.com/hm.js?f1661a9d96dfacbfa0cd47b35701e6d9'}]
+    ['script', { src: 'https://hm.baidu.com/hm.js?f1661a9d96dfacbfa0cd47b35701e6d9'}],
+    ['script', { src: '/cursor-effects.js'}]
   ],
 
   themeConfig: {
