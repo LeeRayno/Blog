@@ -36,11 +36,17 @@ module.exports = {
 
     nav: [
       { text: '首页', link: '/' },
+      { text: 'Vue', link: '/vue/'},
       { text: '规范', link: '/style/'},
       { text: 'Github', link: 'https://github.com/LeeRayno' },
     ],
 
     sidebar: {
+      '/vue/': [
+        ['', 'Vue'],
+        ['table', 'Table'],
+        ['menu', 'Menu'],
+      ],
       '/style/': [
         ['', 'FE docs'],
         ['html', 'HTML'],
