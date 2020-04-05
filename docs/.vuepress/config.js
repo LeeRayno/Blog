@@ -36,6 +36,7 @@ module.exports = {
 
     nav: [
       { text: '首页', link: '/' },
+      { text: 'JS', link: '/js/'},
       { text: 'Vue', link: '/vue/'},
       { text: '规范', link: '/style/'},
       { text: 'Github', link: 'https://github.com/LeeRayno' },
@@ -46,6 +47,7 @@ module.exports = {
         ['', 'Vue'],
         ['table', 'Table'],
         ['menu', 'Menu'],
+        ['decentralize', '去中心化'],
       ],
       '/style/': [
         ['', 'FE docs'],
@@ -53,7 +55,7 @@ module.exports = {
         ['css', 'CSS'],
         ['named', '命名']
       ],
-      '/': [
+      '/js/': [
         '',       
         ['typeof', 'typeof'],
         ['closure', '闭包']

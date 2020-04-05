@@ -16,8 +16,11 @@ export default {
 }
 </script>
 <style>
+.page {
+  padding-left: 0 !important;
+}
 .global-ui {
-  padding-left: 20rem;
+  /* padding-left: 20rem; */
 }
 
 .footer {
