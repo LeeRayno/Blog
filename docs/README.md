@@ -1,7 +1,6 @@
 ---
 sidebar: false
 ---
-#
 
 ```js
                                          _oo0oo_
