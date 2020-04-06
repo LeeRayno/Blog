@@ -48,6 +48,7 @@ module.exports = {
         ['table', 'Table'],
         ['menu', 'Menu'],
         ['decentralize', '去中心化'],
+        ['request', '请求封装'],
       ],
       '/style/': [
         ['', 'FE docs'],

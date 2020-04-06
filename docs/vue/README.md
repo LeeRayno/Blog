@@ -11,3 +11,4 @@ sidebar: false
 - [JSX - el-table](/vue/table.md)
 - [JSX - el-menu](/vue/menu.md)
 - [去中心化](/vue/decentralize.md)
+- [请求封装](/vue/request.md)
