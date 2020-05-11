@@ -4,8 +4,6 @@
 `el-table` 并没有提供 **拖拽排序** 功能, 所以需要自己实现, 去 [Issue](https://github.com/ElemeFE/element/issues/5684#issuecomment-459691810) 里面找到了如下解决方法
 :::
 
-![gif](https://tva1.sinaimg.cn/large/00831rSTly1gdhutwlfrjg31ac0lsu11.gif)
-
 ## 写拖拽组件
 
 使用 `sortablejs`
