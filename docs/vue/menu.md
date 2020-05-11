@@ -21,70 +21,69 @@
     }
   },
   {
-    "path": "/product-operation",
+    "path": "/sdfsf",
     "meta": {
       "keepAlive": true,
       "isMenu": true,
       "sort": 1,
-      "title": "产品运营",
+      "title": "十点多",
       "icon": "el-icon-menu"
     },
     "children": [
       {
-        "path": "operation-manage",
+        "path": "qews",
         "meta": {
           "keepAlive": true,
           "isMenu": true,
-          "title": "运营位管理"
+          "title": "水电费"
         }
       }
     ]
   },
   {
-    "path": "/content-operation",
+    "path": "/gdfs",
     "meta": {
       "keepAlive": true,
       "isMenu": true,
       "sort": 2,
-      "title": "内容运营",
+      "title": "给对方",
       "icon": "el-icon-menu"
     },
     "children": [
       {
-        "path": "course-adjustment",
+        "path": "gdfdws",
         "meta": {
           "keepAlive": true,
           "isMenu": true,
-          "title": "课程组配置"
+          "title": "大师傅"
         }
       },
       {
-        "path": "faq-config",
+        "path": "faqs",
         "meta": {
           "keepAlive": true,
           "isMenu": true,
-          "title": "常见问题"
+          "title": "阿萨德"
         }
       }
     ],
-    "redirect": "/content-operation/course-adjustment"
   },
   {
-    "path": "/market-strategy",
+    "path": "/marketasd",
     "meta": {
       "keepAlive": true,
       "isMenu": true,
       "sort": 3,
-      "title": "营销策略",
+      "title": "地方的",
       "icon": "el-icon-menu"
     },
     "children": [
       {
-        "path": "coupon-config",
+        "path": "coupongdfd",
         "meta": {
           "keepAlive": true,
           "isMenu": true,
-          "title": "优惠券管理"
+          "title": "阿萨德"
         }
       }
     ]
@@ -105,7 +104,7 @@ import { isHttp } from '@/utils/index.js'
 import router from '@/router'
 
 export default {
-  name: 'XdfMenu',
+  name: 'LlMenu',
 
   computed: {
     ...mapGetters([

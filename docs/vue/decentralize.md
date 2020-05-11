@@ -93,59 +93,52 @@ tree -I node_modules -L 4
 // views/content-operation/router.js
 export default {
   path: '/content-operation',
-  component: {
-    render () {
-      return (
-        <xdf-catch />
-      )
-    }
-  },
+  component: () => import('./components/view-catch.vue'),
   meta: {
     keepAlive: true,
     isMenu: true,
     sort: 2,
-    title: '内容运营',
+    title: '安达市',
     icon: 'el-icon-menu'
   },
   children: [
     {
-      path: 'course-adjustment',
-      component: () => import('./src/course-adjustment/index.vue'),
+      path: 'asdfsdf',
+      component: () => import('./src/asdfsdf/index.vue'),
       meta: {
         keepAlive: true,
         isMenu: true,
-        title: '课程组配置'
+        title: '阿斯蒂芬'
       }
     },
     {
-      path: 'course-detail',
-      component: () => import('./src/course-adjustment/detail.vue'),
+      path: 'sdfsd',
+      component: () => import('./src/asdfsdf/detail.vue'),
       meta: {
         keepAlive: false,
         isMenu: false,
-        title: '课程调权'
+        title: '阿斯蒂芬'
       }
     },
     {
-      path: 'faq-config',
-      component: () => import('./src/faq-config/index.vue'),
+      path: 'gfdfss',
+      component: () => import('./src/gfdfss/index.vue'),
       meta: {
         keepAlive: true,
         isMenu: true,
-        title: '常见问题'
+        title: '搜索'
       }
     },
     {
       path: 'faq-detail/:type/:id',
-      component: () => import('./src/faq-config/detail.vue'),
+      component: () => import('./src/gfdfss/detail.vue'),
       meta: {
         keepAlive: false,
         isMenu: false,
-        title: '常见问题配置'
+        title: '啥地方法规'
       }
     }
   ],
-  redirect: '/content-operation/course-adjustment'
 }
 
 ```
