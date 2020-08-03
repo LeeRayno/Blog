@@ -38,6 +38,7 @@ module.exports = {
       { text: '首页', link: '/' },
       { text: 'JS', link: '/js/'},
       { text: 'Vue', link: '/vue/'},
+      { text: 'React', link: '/react/'},
       { text: '规范', link: '/style/'},
       { text: 'Github', link: 'https://github.com/LeeRayno' },
     ],
@@ -49,6 +50,12 @@ module.exports = {
         ['menu', 'Menu'],
         ['decentralize', '去中心化'],
         ['request', '请求封装'],
+      ],
+      '/react/': [
+        ['', 'React'],
+        ['router', 'Router'],
+        ['menu', 'Menu'],
+        ['breadcrumb', 'Breadcrumb'],
       ],
       '/style/': [
         ['', 'FE docs'],
