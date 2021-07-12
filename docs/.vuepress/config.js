@@ -66,7 +66,8 @@ module.exports = {
       '/js/': [
         '',       
         ['typeof', 'typeof'],
-        ['closure', '闭包']
+        ['closure', '闭包'],
+        ['xlsx', 'XLSX'],
       ]
     },
   },
