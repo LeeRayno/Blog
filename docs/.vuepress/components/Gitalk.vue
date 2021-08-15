@@ -21,7 +21,7 @@ export default {
     createGitalk() {
       const gitalk = new Gitalk({
         clientID: 'ed19269c8e16a19c36f4',
-        clientSecret: '33924f3394e3ae3d4006ed7fefa4e2248b9be9b3',
+        clientSecret: 'f8f853be52544d0b75552d4adf89de67158bfd71',
         repo: 'Blog',
         owner: 'LeeRayno',
         admin: ['LeeRayno'],
